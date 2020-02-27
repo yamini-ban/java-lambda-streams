@@ -1,6 +1,6 @@
 # java-lambda-streams
 
-####Solution in branch feature/streams-lambda
+Solution in branch feature/streams-lambda
 
 Assignment 1. 
 
