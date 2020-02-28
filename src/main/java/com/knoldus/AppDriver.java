@@ -1,6 +1,7 @@
 package com.knoldus;
 
 import com.knoldus.controller.QueryUser;
+import com.knoldus.model.Sum;
 import com.knoldus.model.User;
 import com.knoldus.utilities.Query;
 
@@ -35,17 +36,17 @@ public class AppDriver {
 
         List<User> listOfUser = Arrays.asList(user1, user2, user3, user4, user5, user6, user7, user8);
 
-        System.out.println("\nQuery 1. Above age= 18 and address= Delhi" +
-                QueryUser.aboveAgeAndGivenAddress(listOfUser, 18, "delhi"));
+        System.out.println("\nQuery 1. Above age= 18 and address= Delhi"
+                + QueryUser.aboveAgeAndGivenAddress(listOfUser, 18, "delhi"));
 
-        System.out.println("\nQuery 2. Above id= 10 and below age= 20" +
-                QueryUser.idAndAge(listOfUser, 10, 20));
+        System.out.println("\nQuery 2. Above id= 10 and below age= 20"
+                + QueryUser.idAndAge(listOfUser, 10, 20));
 
-        System.out.println("\nQuery 3. Age as even number" +
-                QueryUser.evenAge(listOfUser));
+        System.out.println("\nQuery 3. Age as even number"
+                + QueryUser.evenAge(listOfUser));
 
-        System.out.println("\nQuery 4. Age= 18 and address= Delhi" +
-                QueryUser.ageAndAddress(listOfUser, 18, "DeLhI"));
+        System.out.println("\nQuery 4. Age= 18 and address= Delhi"
+                + QueryUser.ageAndAddress(listOfUser, 18, "DeLhI"));
 
     }
 
